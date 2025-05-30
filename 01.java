@@ -32,7 +32,7 @@ public String setname(String name ){
 public int setdaysattended(int daysattended){
 	this.daysattended=daysattended;
 }
-  public String toString() {
+  public String output() {
         return "ID: " + studentId + ", Name: " + name + ", Days Attended: " + daysAttended;
     }
 
